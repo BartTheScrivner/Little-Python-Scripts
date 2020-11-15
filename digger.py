@@ -9,6 +9,9 @@ character = "&"
 position = space + character
 directions = ['A','S','D']
 
+print("It's dark...")
+print("The walls are close.")
+
 for i in range(turn):
     start = input(position + '\n' + ground + '\n' + '\n \n Which way? A left / S down / D right:  ')
     choice = start.upper()
